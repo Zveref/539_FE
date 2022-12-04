@@ -1,0 +1,90 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 0 auto;
+  width: 90%;
+  @media (min-width: 450px) {
+    width: 60%;
+  }
+  @media (min-width: 1500px) {
+    width: 40%;
+  }
+}
+
+
+
+.landing-logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 100;
+  margin: 0;
+  @media (min-width: 450px) {
+    font-size: 36px;
+  }
+}
+
+.form-landing {
+  position: relative;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-landing {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  width: 100%;
+  padding: 15px 20px;
+  background: linear-gradient(134.17deg, #eef1f5 4.98%, #e6e9ef 94.88%);
+  box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75),
+      inset 5px 5px 10px rgba(166, 180, 200, 0.75);
+  border-radius: 40px;
+  border: none;
+  transform-origin: top left;
+  transform: scale(1);
+}
+
+.button-landing {
+  width: 100%;
+  border-radius: 40px;
+  padding: 1rem;
+  margin: 2em 0 0 0 ;
+  background: linear-gradient(134.17deg, #eef0f5 4.98%, #e6e9ef 94.88%);
+  background: linear-gradient(220.6deg, #eef0f5 8.29%, #e6e9ef 84.92%);
+  border-radius: 40px;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  background: linear-gradient(
+    134.17deg,
+    hsl(46deg 86% 56%) 4.98%,
+    hsl(44, 75%, 65%) 94.88%
+  );
+  /* color: $colorText; */
+}
+.error-input {
+  position: absolute;
+  bottom: -60px;
+  color: red;
+  text-transform: uppercase;
+}
+
+.landing-title h3 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  text-transform: uppercase;
+  margin: 1.5em 0 0.2em 0.5em;
+}
